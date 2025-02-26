@@ -5,7 +5,7 @@ La dinámica de un montón de sistemas se expresa mediante ecuaciones diferencia
 ## 2. Definiciones
 > 🔑 *Sistema dinámico:* Un sistema cuyo estado cambia con el tiempo debido a la interacción de sus elementos internos o con el entorno.
 
-> 🔑 *Modelo matemático:* Representación de un sistema físico mediante ecuaciones matemáticas que describen su comportamiento. 
+> 🔑 *Modelo matemático:* Representación de un sistema físico mediante ecuaciones matemáticas que describen su comportamiento.
 
 > 🔑 *Ecuación diferencial:* Ecuación que relaciona una función con sus derivadas y describe la dinámica de un sistema.
 
@@ -50,6 +50,8 @@ Determine la ecuación de movimiento de un sistema masa-resorte con *m = 3 kg*, 
 
 📚 **Ejercicio 2**
 Simule la respuesta de un péndulo simple en MATLAB para *L = 2 m* y un ángulo inicial de 10 grados.
+1
+2
 
 ## 6. Conclusiones
 El modelamiento de sistemas dinámicos permite predecir el comportamiento de sistemas mecánicos mediante ecuaciones diferenciales. Comprender estas ecuaciones es fundamental para el análisis y diseño de sistemas en ingeniería.
