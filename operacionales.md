@@ -1,5 +1,6 @@
 # Sistemas Hidraulicos
-Los sistemas de fluidos, que pueden contener líquidos o gases en movimiento, son estudiados mediante la mecánica de fluidos. Esta disciplina científica examina el comportamiento de los fluidos bajo diversas condiciones.
+Los sistemas hidráulicos se utilizan en diversas aplicaciones industriales y mecánicas debido a su capacidad para transmitir grandes fuerzas con precisión. Funcionan mediante el uso de fluidos incompresibles para generar y controlar energía mecánica. Se emplean en maquinaria pesada, sistemas de frenos, actuadores y en la industria aeroespacial.
+## Definiciones
 ## Principios Fundamentales
 ara crear un modelo preciso de cualquier sistema de fluidos, es esencial considerar tres principios básicos:
  - Conservación de la Masa (Ecuación de Continuidad): nos indica que el volumen del fluido en un sistema varia segun la diferencia entre el flujo de entrada y de salida 
