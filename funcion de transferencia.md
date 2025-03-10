@@ -51,15 +51,39 @@ despejando G(s):
 $$G(s)=\frac{X(s)}{F(s)} =\frac{1}{ms^{2}+bs+k}$$
 
 ## Clasificacion 
+- Estrictamente propia: si el grado del polinomio del denominador es mayor que el del numerador
 
+$$ \frac{2}{s+2} $$
+
+- impropia: si el grado del polinomio del numerador es mayor que el del denominador
+
+$$ s^{2}+1 $$
+- Bipropia: Cuando el grado de ambos polinomios es igual
+
+$$ 3 $$
 ## Zeros
+Son los valores de *s* que hacen que la funcion de trasferencia sea igual a cero. Se obtiene al igualar a cero el numerador de la funcion. Los valores pueden ser reales o complejos y se pueden ubicar en un plano cartesiano.
+Los ceros modifican la forma de la respuesta del sistema al influir en la amplitud y la fase de la señal de salida
+Si estan cerca del origen, tienen un gran impacto en la dinámica del sistema.
 ## Polos 
+Son los valores de *s* que hacen que la funcion de transferencia se vuelva infinita. Se tiene que igualar a cero el denominador de la funcion.
+### Clasificacion de los polos
+se pueden clasificar en:
+- Polos reales iguales
 
+$$ s_{1,2}= 5 $$
+- Polos reales diferentes
+
+$$ s_{1} =-1, s_{2} = -6 $$
+- Polos complejos conjugados
+
+$$ s=-1\pm 2j $$
+  
 ## Conclusiones 
 - La Transformada de Laplace convierte ecuaciones diferenciales complejas en expresiones algebraicas más sencillas, lo que permite analizar sistemas dinámicos con mayor facilidad.
 - Con la Función de Transferencia podemos crear un modelo matemático que describe cómo responde un sistema ante diferentes señales de entrada.
 - Los ingenieros de control aplican estos conceptos para desarrollar y mejorar sistemas en diversas áreas, como circuitos eléctricos, mecanismos y procesos térmicos.
-- 
+- Los ceros no afectan directamente la estabilidad del sistema como los polos, pero influyen en la respuesta transitoria 
 
 
 
