@@ -1,5 +1,5 @@
 # Sistemas Electricos 
-Los sistemas electricos constituyen una red integrada de elementos, equipos y circuitos creados para producir, transportar, distribuir y utilizar la energía eléctrica con eficiencia y seguridad.
+Los sistemas eléctricos juegan un papel esencial en el desarrollo de circuitos para control automático y aplicaciones electrónicas. Para comprender su comportamiento, utilizamos ecuaciones diferenciales que describen cómo varían los voltajes y corrientes a lo largo del tiempo. En este texto, nos enfocaremos en el modelamiento de sistemas RLC (resistencia-inductancia-capacitancia)
 ## 1. Variables fundamentales
 - Voltaje
 - Corriente
@@ -35,3 +35,9 @@ $$ I_{T}=I_{R}+I_{L}+I_{C} $$
 El voltaje total en este tipo de circuitos es igual en cada uno de sus componentes
 
 $$ V_{T}=V_{R}+V_{L}+V_{C} $$
+
+### 4. Ejercicios
+### 5. Conclusiones
+El modelamiento de sistemas eléctricos ayuda a predecir su comportamiento y respuesta ante diferentes entradas. Los circuitos RLC, que son de segundo orden, tienen similitudes con los sistemas mecánicos, lo que permite un análisis más completo. Usando las leyes de Kirchhoff y ecuaciones diferenciales, es posible diseñar y entender circuitos en control automático y electrónica. Este enfoque no solo mejora la comprensión teórica, sino que también facilita soluciones prácticas en ingeniería.
+### 6. Referencias
+Dorf, R. C., & Bishop, R. H. (2011). Sistemas de Control Automático. Prentice Hall.
