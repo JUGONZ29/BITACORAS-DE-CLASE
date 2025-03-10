@@ -1,6 +1,6 @@
 # Modelamiento de Sistemas Dinámicos
-Un modelo matemático de un sistema dinámico es básicamente un conjunto de ecuaciones que describen con bastante precisión, o al menos con una buena aproximación, cómo se comporta dinámicamente el sistema. Hay que tener en cuenta que un mismo sistema puede representarse de varias maneras diferentes, lo que quiere decir que no existe un único modelo matemático, sino que hay múltiples enfoques posibles dependiendo de cómo lo mires.
-La dinámica de un montón de sistemas se expresa mediante ecuaciones diferenciales. Estas ecuaciones vienen de las leyes físicas que gobiernan cada sistema, como las leyes de Newton en sistemas mecánicos y las leyes de Kirchhoff en sistemas eléctricos. Conseguir un modelo matemático adecuado es una de las partes más importantes cuando analizas cualquier sistema.
+Un modelo matemático de un sistema dinámico es básicamente un conjunto de ecuaciones que describen con bastante precisión, o al menos con una buena aproximación, cómo se comporta dinámicamente el sistema. Hay que tener en cuenta que un mismo sistema puede representarse de varias maneras diferentes, lo que quiere decir que no existe un único modelo matemático, sino que hay múltiples enfoques posibles dependiendo de cómo se mire.
+La dinámica de un montón de sistemas se expresa mediante ecuaciones diferenciales. Estas ecuaciones vienen de las leyes físicas que gobiernan cada sistema, como las leyes de Newton en sistemas mecánicos y las leyes de Kirchhoff en sistemas eléctricos. Conseguir un modelo matemático adecuado es una de las partes más importantes cuando se analiza cualquier sistema.
 
 ## Definiciones
 > 🔑 *Sistema dinámico:* Un sistema cuyo estado cambia con el tiempo debido a la interacción de sus elementos internos o con el entorno.
@@ -45,29 +45,19 @@ Tabla 1. Resumen de ecuaciones de sistemas mecánicos.
 
 
 # Rotacionales 
-En los sistemas rotacionales se ven involucradas las variables como son el torque, el desplazamiento angular y velocidad angulas. Son comunes en motores electricos, engranajes, volantes de inercia y sistemas de transmicion de potencia
-
+En los sistemas rotacionales se ven involucradas las variables como son el torque, el desplazamiento angular y velocidad angulas. Son comunes en motores eléctricos, engranajes, volantes de inercia y sistemas de transmisión de potencia
 ## Variables del sistema
-Es importante destacar que las magnitudes en un sistema rotacional se pueden definir mediante tres parametros
+Es importante destacar que las magnitudes en un sistema rotacional se pueden definir mediante tres parámetros
 
-- angulo de giro * 1* es la posicion angular del sistema medida en radianes
+- Ángulo de giro * 1* es la posición angular del sistema medida en radianes
 - velocidad angular *2* la rapidez con la que gira
-- aceleracion angular *3* es la variacion de la velocidad angular, medida en (rad/s^2)
+- Aceleración angular *3* es la variación de la velocidad angular, medida en (rad/s^2)
 ## Ecuaciones de movimiento en sistemas rotacionales
 Utilizando la segunda Ley de Newton para estos sistemas se determina como:
 
-- suma de los momentos de torsion
-- momento de inercia rotacional
-- aceleracion angular
-  
-# Conclusiones
-- El modelamiento de sistemas dinámicos permite predecir el comportamiento de sistemas mecánicos mediante ecuaciones diferenciales. Comprender estas ecuaciones es fundamental para el análisis y diseño de sistemas en ingeniería.
-
-- Una vez obtenido un modelo matemático, se pueden realizar simulaciones para prever la respuesta del sistema ante distintos escenarios. Esto es crucial en el diseño de sistemas de control, ya que permite implementar estrategias para mejorar la estabilidad, el rendimiento y la eficiencia.
-
-# Referencias
-- Ogata, K. (2010). *Ingeniería de Control Moderna*. Pearson.
-- Dorf, R. C., & Bishop, R. H. (2017). *Sistemas de control moderno*. Pearson.
+- suma de los momentos de torsión
+- Momento de inercia rotacional
+- Aceleración angular
 
 ## Ejercicios
 
@@ -157,6 +147,12 @@ Estas ecuaciones describen el comportamiento dinámico del sistema vehículo-rem
 ![Imagen de WhatsApp 2025-03-10 a las 14 38 14_ebe8fe0a](https://github.com/user-attachments/assets/9e9aea27-89ce-480f-91f7-25f251bb9978)
 
 ## Conclusiones
-El modelamiento de sistemas dinámicos con ecuaciones diferenciales y funciones de transferencia nos permite entender cómo responden estos sistemas a diferentes estímulos. Los sistemas que incluyen masa, resorte y amortiguador (y sus equivalentes rotacionales) pueden representarse matemáticamente mediante ecuaciones diferenciales de segundo orden. Al resolver estas ecuaciones, podemos determinar si el sistema es estable y evaluar su desempeño bajo distintas condiciones. Este enfoque matemático es fundamental para desarrollar sistemas de control automático efectivos.
+- El análisis de sistemas dinámicos mediante ecuaciones diferenciales y funciones de transferencia nos ayuda a ver cómo estos sistemas reaccionan a diversos estímulos. Los sistemas que contienen masa, un resorte y un amortiguador (así como sus versiones rotacionales) se pueden describir matemáticamente a través de ecuaciones diferenciales de segundo grado. Al solucionar estas ecuaciones, podemos averiguar si el sistema es estable y medir su rendimiento en diferentes situaciones. Este método matemático es clave para crear sistemas de control automático que funcionan bien.
 
+- El modelamiento de sistemas que cambian con el tiempo ayuda a anticipar cómo funcionarán sistemas mecánicos usando ecuaciones que involucran derivadas. Entender estas ecuaciones es clave para el estudio y la creación de sistemas en el campo de la ingeniería.
 
+- Después de tener un modelo matemático, es posible hacer simulaciones para anticipar cómo reaccionará el sistema en diferentes situaciones. Esto es vital en el desarrollo de sistemas de control, porque facilita la adopción de métodos para optimizar la estabilidad, el desempeño y la efectividad.
+
+# Referencias
+- Ogata, K. (2010). *Ingeniería de Control Moderna*. Pearson.
+- Dorf, R. C., & Bishop, R. H. (2017). *Sistemas de control moderno*. Pearson.
