@@ -2,7 +2,7 @@
 Un modelo matemático de un sistema dinámico es básicamente un conjunto de ecuaciones que describen con bastante precisión, o al menos con una buena aproximación, cómo se comporta dinámicamente el sistema. Hay que tener en cuenta que un mismo sistema puede representarse de varias maneras diferentes, lo que quiere decir que no existe un único modelo matemático, sino que hay múltiples enfoques posibles dependiendo de cómo lo mires.
 La dinámica de un montón de sistemas se expresa mediante ecuaciones diferenciales. Estas ecuaciones vienen de las leyes físicas que gobiernan cada sistema, como las leyes de Newton en sistemas mecánicos y las leyes de Kirchhoff en sistemas eléctricos. Conseguir un modelo matemático adecuado es una de las partes más importantes cuando analizas cualquier sistema.
 
-## 1. Definiciones
+## Definiciones
 > 🔑 *Sistema dinámico:* Un sistema cuyo estado cambia con el tiempo debido a la interacción de sus elementos internos o con el entorno.
 
 > 🔑 *Modelo matemático:* Representación de un sistema físico mediante ecuaciones matemáticas que describen su comportamiento.
@@ -12,7 +12,7 @@ La dinámica de un montón de sistemas se expresa mediante ecuaciones diferencia
 # Sistemas Mecánicos
 Un sistema mecánico es un conjunto de componentes diseñados para transmitir, transformar o controlar el movimiento y la energía mecánica. entre los cuales podemos encontrar los siguientes tipos de sistemas 
 
-## 1. Sistema Masa-Resorte-Amortiguador
+## Sistema Masa-Resorte-Amortiguador
 Este sistema está compuesto por una masa unida a un resorte y un amortiguador. Se modela con la ecuación diferencial:
 ```math
 m \ddot{y} + c \dot{y} + ky = F(t)
@@ -24,7 +24,7 @@ Donde:
 - *y* es el desplazamiento,
 - *F(t)* es la fuerza aplicada.
 
-## 2. Péndulo Simple
+## Péndulo Simple
 Un péndulo simple consta de una masa suspendida de un hilo que oscila bajo la acción de la gravedad. Se modela mediante la ecuación:
 ```math
 \ddot{\theta} + \frac{g}{L} \sin\theta = 0
@@ -34,7 +34,7 @@ Donde:
 - *g* es la aceleración debido a la gravedad,
 - *L* es la longitud del péndulo.
 
-## 3. Ecuaciones resultantes
+## Ecuaciones resultantes
 
 | Sistema | Ecuación de Movimiento |
 |---------|----------------------|
@@ -47,23 +47,23 @@ Tabla 1. Resumen de ecuaciones de sistemas mecánicos.
 # Rotacionales 
 En los sistemas rotacionales se ven involucradas las variables como son el torque, el desplazamiento angular y velocidad angulas. Son comunes en motores electricos, engranajes, volantes de inercia y sistemas de transmicion de potencia
 
-## 1. variables del sistema
+## Variables del sistema
 Es importante destacar que las magnitudes en un sistema rotacional se pueden definir mediante tres parametros
 
 - angulo de giro * 1* es la posicion angular del sistema medida en radianes
 - velocidad angular *2* la rapidez con la que gira
 - aceleracion angular *3* es la variacion de la velocidad angular, medida en (rad/s^2)
-## 2. Ecuaciones de movimiento en sistemas rotacionales
+## Ecuaciones de movimiento en sistemas rotacionales
 Utilizando la segunda Ley de Newton para estos sistemas se determina como:
 
 - suma de los momentos de torsion
 - momento de inercia rotacional
 - aceleracion angular
   
-## 3. Modelamiento matematico 
-## 4. Ejemplos
-### 4.1 Ejemplo 1
-### 4.2 Ejemplo 2
+## Modelamiento matematico 
+##  Ejemplos
+### Ejemplo 1
+### Ejemplo 2
 
 # Conclusiones
 - El modelamiento de sistemas dinámicos permite predecir el comportamiento de sistemas mecánicos mediante ecuaciones diferenciales. Comprender estas ecuaciones es fundamental para el análisis y diseño de sistemas en ingeniería.
@@ -74,11 +74,12 @@ Utilizando la segunda Ley de Newton para estos sistemas se determina como:
 - Ogata, K. (2010). *Ingeniería de Control Moderna*. Pearson.
 - Dorf, R. C., & Bishop, R. H. (2017). *Sistemas de control moderno*. Pearson.
 
-## 4. Ejercicios
+## Ejercicios
 
 📚 **Ejercicio 1**
 
-- imagennnn
+![Imagen de WhatsApp 2025-03-10 a las 14 32 59_5db6b950](https://github.com/user-attachments/assets/b58881b9-747d-4167-b407-e3ef061cd431)
+
 
 
 # Solución Paso a Paso
@@ -149,7 +150,17 @@ M_2 \ddot{y}_2 (t) = K_h y_1 (t) - K_h y_2 (t) + B_h \dot{y}_1 (t) - (B_h + B_i)
 ```
 
 Estas ecuaciones describen el comportamiento dinámico del sistema vehículo-remolque bajo la influencia de la fuerza aplicada `f(t)`. 
+📚 **Ejercicio 2**
 
+![Imagen de WhatsApp 2025-03-10 a las 14 38 14_14743131](https://github.com/user-attachments/assets/4a29b56d-ace7-4831-baaf-74a01d857f23)
 
+### Dinamica del sistema
+![Imagen de WhatsApp 2025-03-10 a las 14 38 14_5f5de316](https://github.com/user-attachments/assets/3ca24e62-1956-496e-bb59-232a1a11a1cc)
+
+### Para la ecuacion 
+![Imagen de WhatsApp 2025-03-10 a las 14 38 14_ebe8fe0a](https://github.com/user-attachments/assets/9e9aea27-89ce-480f-91f7-25f251bb9978)
+
+## Conclusiones
+El modelamiento de sistemas dinámicos con ecuaciones diferenciales y funciones de transferencia nos permite entender cómo responden estos sistemas a diferentes estímulos. Los sistemas que incluyen masa, resorte y amortiguador (y sus equivalentes rotacionales) pueden representarse matemáticamente mediante ecuaciones diferenciales de segundo orden. Al resolver estas ecuaciones, podemos determinar si el sistema es estable y evaluar su desempeño bajo distintas condiciones. Este enfoque matemático es fundamental para desarrollar sistemas de control automático efectivos.
 
 
