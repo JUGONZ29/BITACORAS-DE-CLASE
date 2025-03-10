@@ -150,9 +150,6 @@ M_2 \ddot{y}_2 (t) = K_h y_1 (t) - K_h y_2 (t) + B_h \dot{y}_1 (t) - (B_h + B_i)
 
 Estas ecuaciones describen el comportamiento dinámico del sistema vehículo-remolque bajo la influencia de la fuerza aplicada `f(t)`. 
 
----
-
-**Nota:** Si GitHub no renderiza correctamente las ecuaciones en formato `math`, puedes usar la notación de código en bloques o visualizar este documento en un entorno que soporte MathJax como Jupyter Notebook o VS Code con la extensión adecuada.
 
 
 
