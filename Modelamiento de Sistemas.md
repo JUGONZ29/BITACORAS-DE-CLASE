@@ -43,14 +43,6 @@ Donde:
 
 Tabla 1. Resumen de ecuaciones de sistemas mecánicos.
 
-## 4. Ejercicios
-
-### Ejercicios
-📚 **Ejercicio 1**
-Determine la ecuación de movimiento de un sistema masa-resorte con *m = 3 kg*, *c = 2 Ns/m* y *k = 4 N/m*.
-
-📚 **Ejercicio 2**
-Simule la respuesta de un péndulo simple en MATLAB para *L = 2 m* y un ángulo inicial de 10 grados.
 
 # Rotacionales 
 En los sistemas rotacionales se ven involucradas las variables como son el torque, el desplazamiento angular y velocidad angulas. Son comunes en motores electricos, engranajes, volantes de inercia y sistemas de transmicion de potencia
@@ -81,5 +73,89 @@ Utilizando la segunda Ley de Newton para estos sistemas se determina como:
 # Referencias
 - Ogata, K. (2010). *Ingeniería de Control Moderna*. Pearson.
 - Dorf, R. C., & Bishop, R. H. (2017). *Sistemas de control moderno*. Pearson.
+
+## 4. Ejercicios
+
+### Ejercicios
+📚 **Ejercicio 1**
+Determine la ecuación de movimiento de un sistema masa-resorte con *m = 3 kg*, *c = 2 Ns/m* y *k = 4 N/m*.
+
+📚 **Ejercicio 2**
+Simule la respuesta de un péndulo simple en MATLAB para *L = 2 m* y un ángulo inicial de 10 grados.
+
+
+# Solución Paso a Paso
+
+## Paso 1: Definir el Sistema y las Variables
+
+- **M₁**: Masa del vehículo  
+- **M₂**: Masa del remolque  
+- **Kₕ**: Constante elástica del acoplamiento  
+- **Bₕ**: Coeficiente de amortiguamiento del acoplamiento  
+- **Bᵢ**: Coeficiente de fricción viscosa del remolque  
+- **y₁(t)**: Desplazamiento del vehículo  
+- **y₂(t)**: Desplazamiento del remolque  
+- **f(t)**: Fuerza aplicada al vehículo  
+
+---
+
+## Paso 2: Establecer las Ecuaciones de Movimiento
+
+Usando la segunda ley de Newton, se pueden escribir las ecuaciones de movimiento para el vehículo y el remolque.
+
+### Para el vehículo (M₁):
+
+```math
+M_1 \ddot{y}_1 (t) = f(t) - K_h (y_1 (t) - y_2 (t)) - B_h (\dot{y}_1 (t) - \dot{y}_2 (t))
+```
+
+### Para el remolque (M₂):
+
+```math
+M_2 \ddot{y}_2 (t) = K_h (y_1 (t) - y_2 (t)) + B_h (\dot{y}_1 (t) - \dot{y}_2 (t)) - B_i \dot{y}_2 (t)
+```
+
+---
+
+## Paso 3: Simplificar las Ecuaciones
+
+Combinamos términos para simplificar las ecuaciones.
+
+### Para el vehículo (M₁):
+
+```math
+M_1 \ddot{y}_1 (t) = f(t) - K_h y_1 (t) + K_h y_2 (t) - B_h \dot{y}_1 (t) + B_h \dot{y}_2 (t)
+```
+
+### Para el remolque (M₂):
+
+```math
+M_2 \ddot{y}_2 (t) = K_h y_1 (t) - K_h y_2 (t) + B_h \dot{y}_1 (t) - (B_h + B_i) \dot{y}_2 (t)
+```
+
+---
+
+## Respuesta Final
+
+El sistema de ecuaciones diferenciales que representa el movimiento del vehículo y el remolque es:
+
+### Para el vehículo (M₁):
+
+```math
+M_1 \ddot{y}_1 (t) = f(t) - K_h y_1 (t) + K_h y_2 (t) - B_h \dot{y}_1 (t) + B_h \dot{y}_2 (t)
+```
+
+### Para el remolque (M₂):
+
+```math
+M_2 \ddot{y}_2 (t) = K_h y_1 (t) - K_h y_2 (t) + B_h \dot{y}_1 (t) - (B_h + B_i) \dot{y}_2 (t)
+```
+
+Estas ecuaciones describen el comportamiento dinámico del sistema vehículo-remolque bajo la influencia de la fuerza aplicada `f(t)`. 
+
+---
+
+**Nota:** Si GitHub no renderiza correctamente las ecuaciones en formato `math`, puedes usar la notación de código en bloques o visualizar este documento en un entorno que soporte MathJax como Jupyter Notebook o VS Code con la extensión adecuada.
+
 
 
