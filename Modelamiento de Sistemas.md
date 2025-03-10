@@ -60,11 +60,6 @@ Utilizando la segunda Ley de Newton para estos sistemas se determina como:
 - momento de inercia rotacional
 - aceleracion angular
   
-## Modelamiento matematico 
-##  Ejemplos
-### Ejemplo 1
-### Ejemplo 2
-
 # Conclusiones
 - El modelamiento de sistemas dinámicos permite predecir el comportamiento de sistemas mecánicos mediante ecuaciones diferenciales. Comprender estas ecuaciones es fundamental para el análisis y diseño de sistemas en ingeniería.
 
@@ -150,6 +145,7 @@ M_2 \ddot{y}_2 (t) = K_h y_1 (t) - K_h y_2 (t) + B_h \dot{y}_1 (t) - (B_h + B_i)
 ```
 
 Estas ecuaciones describen el comportamiento dinámico del sistema vehículo-remolque bajo la influencia de la fuerza aplicada `f(t)`. 
+
 📚 **Ejercicio 2**
 
 ![Imagen de WhatsApp 2025-03-10 a las 14 38 14_14743131](https://github.com/user-attachments/assets/4a29b56d-ace7-4831-baaf-74a01d857f23)
