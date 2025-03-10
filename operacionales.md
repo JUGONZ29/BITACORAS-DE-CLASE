@@ -1,6 +1,13 @@
 # Sistemas Hidraulicos
 Los sistemas hidráulicos se utilizan en diversas aplicaciones industriales y mecánicas debido a su capacidad para transmitir grandes fuerzas con precisión. Funcionan mediante el uso de fluidos incompresibles para generar y controlar energía mecánica. Se emplean en maquinaria pesada, sistemas de frenos, actuadores y en la industria aeroespacial.
 ## Definiciones
+> 🔑 *Presion:* Es la fuerza ejercida por unidad de area en un fluido
+
+> 🔑 *Caudal:* Volumen de fluido que pasa por una seccion transversal por unidad de tiempo
+
+> 🔑 *Actuador hidraulico:* Dispositivo que convierte la energia hidraulica en movimiento mecanico
+
+> 🔑 *Valvula de control:* Regula la direccion, presion y flujo del fluido en el sistema 
 ## Principios Fundamentales
 ara crear un modelo preciso de cualquier sistema de fluidos, es esencial considerar tres principios básicos:
  - Conservación de la Masa (Ecuación de Continuidad): nos indica que el volumen del fluido en un sistema varia segun la diferencia entre el flujo de entrada y de salida 
@@ -27,11 +34,27 @@ Tiene menor impedancia de entrada
 $$ V_{out} = -\frac{R_{f}}{R_{1}}V_{in} $$
 
 una desventaja de esta configuracion es que la señal de entrada aplicada no debe tener ruido por muy minimo que sea, ya que un valor pequeño puede multiplicarse y reflejarse en la salida
-#### ejemplo
+#### Ejemplo
 Diseñe un amplificador inversor con una ganancia de -10 y una resistencia de entrada igual a 10kΩ.
 
 $$ R_{f} = -A_{v}R_{1} $$
 
 $$ R_{f}= -(-10)10k\Omega = 100k\Omega $$
 ### Amplificador No Inversor
-A diferencia del inversor, esta configuracion cuenta con una alta impedancia
+A diferencia del inversor, esta configuracion cuenta con una alta impedancia de entrada
+
+$$ A_{v}=1+\frac{R_{f}}{R_{1}} $$
+#### Ejemplo
+Si $R_{f} = 10k\Omega$ y $R_{1} = 2k\Omega $, la ganancia sera:
+
+$$ A_{v}=1+\frac{10k}{2k} = 6 $$ 
+
+Si la entrada es de 1V, la salida sera de 6V
+## Conclusiones 
+- Los sistemas hidraulicos permiten la transmision eficiente de energia a traves de fluidos incompresibles. son ampliamente utilizados en sistemas de control y maquinaria industrial para general movimiento y fuerza controlada
+- Los amplificadores operacionales son fundamentales en sistemas electronicos y de control. las diversas configuraciones permiten el preocesamiento de señales y la implementacion de operaciones matematicas.
+- Los amplificadores inversor y no inversor son esenciales para amplificar señales sin causar distorsión significativa en diversas aplicaciones. Por su parte, el integrador juega un papel clave en el procesamiento de señales y sistemas de control, permitiendo realizar operaciones matemáticas fundamentales en circuitos electrónicos avanzados.
+## Referencias
+Ogata, K. (2010). Ingeniería de Control Moderna. Pearson.
+
+
