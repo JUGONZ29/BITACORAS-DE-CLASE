@@ -1,9 +1,11 @@
-- sistema
-- planta
-- proceso
-- actuador
-- lazo cerrado
-- lazo abierto
+# Introduccion
+## Definiciones 
+- sistema: Conjunto de componentes interconectados que trabajan juntos para un objetivo especifico
+- planta: parte del sistema que se desea controlar
+- proceso: Se refiere a la serie de cambios o transformaciones que ocurren en un sistema para convertir una entrada en una salida.
+- actuador: Dispositivo que convierte una señal de control en una accion fisica sobre la planta
+- lazo cerrado: Sistema de control que usa retroalimentacion, es decir, la salida se compara con la referencia
+- lazo abierto: sistema de control en el cual la salida no influye en la accion de control
 # Transformada de Laplace
 Es una herramienta matematica que permite convertir ecuaciones algebraicas en el dominio de la frecuencia. esto facilita el analisis de sistemas dinamicos, ya que en lugar de resolver ecuaciones diferenciales en el tiempo, se puede trabajar con expresiones algebraicas en s, lo que simplifica la resolucion de problemas.
 Una de sus ventajas es la facilidad con la que maneja derivadas e integrales, nos permite transformar ecuaciones diferenciales en ecuaciones polinomicas. Ademas se puede obtener funciones de transferencia
