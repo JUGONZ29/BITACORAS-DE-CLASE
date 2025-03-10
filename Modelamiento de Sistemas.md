@@ -76,12 +76,9 @@ Utilizando la segunda Ley de Newton para estos sistemas se determina como:
 
 ## 4. Ejercicios
 
-### Ejercicios
 📚 **Ejercicio 1**
-Determine la ecuación de movimiento de un sistema masa-resorte con *m = 3 kg*, *c = 2 Ns/m* y *k = 4 N/m*.
 
-📚 **Ejercicio 2**
-Simule la respuesta de un péndulo simple en MATLAB para *L = 2 m* y un ángulo inicial de 10 grados.
+- imagennnn
 
 
 # Solución Paso a Paso
