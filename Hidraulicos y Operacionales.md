@@ -76,11 +76,11 @@ Aplicación de la Transformada de Laplace
 Por otro lado, se sabe que el volumen acumulado en cada tanque depende del balance de caudales. Aplicando esta relación y realizando la transformación de Laplace, se obtienen las siguientes ecuaciones:
 
 $$
-q_e - q_1 = A_1 \cdot \frac{\partial h_1}{\partial t} \quad \Rightarrow \quad \text{Reemplazo y transformación} \quad \Rightarrow \quad Q_1(s) = \frac{H_1(s) - H_2(s)}{R_1} = Q_e(s) - A_1 \cdot s \cdot H_1(s)
+q_e - q_1 = A_1 \cdot \frac{\partial h_1}{\partial t} 
 $$
 
 $$
-q_1 - q_2 = A_2 \cdot \frac{\partial h_2}{\partial t} \quad \Rightarrow \quad \text{Reemplazo y transformación} \quad \Rightarrow \quad Q_2(s) = \frac{H_2(s)}{R_2} = Q_1(s) - A_2 \cdot s \cdot H_2(s)
+q_1 - q_2 = A_2 \cdot \frac{\partial h_2}{\partial t} 
 $$
 
 A partir de estas ecuaciones, se pueden obtener dos expresiones: una que relaciona $H_1$ con $H_2$ y $Q_1$, y otra que proporciona una función de $Q_1$, la cual puede reemplazarse en la ecuación inferior.
