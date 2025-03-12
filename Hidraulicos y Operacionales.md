@@ -52,6 +52,38 @@ $$ A_{v}=1+\frac{10k}{2k} = 6 $$
 Si la entrada es de 1V, la salida sera de 6V
 ## 3. Ejercicios
 
+![image](https://github.com/user-attachments/assets/5fc99212-3c0c-48ec-9014-73cb164b4063)
+
+
+Se tienen dos tanques o columnas abiertas, de las cuales solo una es alimentada por un caudal $Q_e$. La segunda columna recibe líquido a través de una conexión con la primera y lo libera mediante otra tubería. Ambas conexiones presentan una resistencia al flujo del caudal, denominadas $R_1$ y $R_2$. El objetivo es determinar cómo varía la altura del segundo tanque en función del caudal que ingresa en el primero.
+
+Análisis del Flujo
+
+Analicemos $q_1$: Como ambos tanques están abiertos a la atmósfera, la presión en su superficie es la presión ambiente. Aplicando la ecuación de Bernoulli en ambos lados y considerando las simplificaciones del problema (como que la velocidad del fluido a ambos lados del canal es la misma), la expresión para el caudal depende únicamente de la diferencia de alturas:
+
+$$
+q_1= \frac{h_1 - h_2}{R_1}
+$$
+
+Para el caudal $q_2$, la situación es similar, con la diferencia de que no hay un tercer tanque que imponga una resistencia adicional al flujo del líquido. Por lo tanto:
+
+$$
+q_2= \frac{h_2}{R_2}
+$$
+
+Aplicación de la Transformada de Laplace
+
+Por otro lado, se sabe que el volumen acumulado en cada tanque depende del balance de caudales. Aplicando esta relación y realizando la transformación de Laplace, se obtienen las siguientes ecuaciones:
+
+$$
+q_e - q_1 = A_1 \cdot \frac{\partial h_1}{\partial t} \quad \Rightarrow \quad \text{Reemplazo y transformación} \quad \Rightarrow \quad Q_1(s) = \frac{H_1(s) - H_2(s)}{R_1} = Q_e(s) - A_1 \cdot s \cdot H_1(s)
+$$
+
+$$
+q_1 - q_2 = A_2 \cdot \frac{\partial h_2}{\partial t} \quad \Rightarrow \quad \text{Reemplazo y transformación} \quad \Rightarrow \quad Q_2(s) = \frac{H_2(s)}{R_2} = Q_1(s) - A_2 \cdot s \cdot H_2(s)
+$$
+
+A partir de estas ecuaciones, se pueden obtener dos expresiones: una que relaciona $H_1$ con $H_2$ y $Q_1$, y otra que proporciona una función de $Q_1$, la cual puede reemplazarse en la ecuación inferior.
 
 ## . Conclusiones 
 - Los sistemas hidraulicos permiten la transmision eficiente de energia a traves de fluidos incompresibles. son ampliamente utilizados en sistemas de control y maquinaria industrial para general movimiento y fuerza controlada
