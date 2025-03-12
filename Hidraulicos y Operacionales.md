@@ -98,6 +98,6 @@ Se ve que la salida es la diferencia de $V_{2}$ y $V_{1}$ multiplicada por un fa
 - Los amplificadores operacionales son fundamentales en sistemas electronicos y de control. las diversas configuraciones permiten el preocesamiento de señales y la implementacion de operaciones matematicas.
 - Los amplificadores inversor y no inversor son esenciales para amplificar señales sin causar distorsión significativa en diversas aplicaciones. Por su parte, el integrador juega un papel clave en el procesamiento de señales y sistemas de control, permitiendo realizar operaciones matemáticas fundamentales en circuitos electrónicos avanzados.
 ## 4. Referencias
-Ogata, K. (2010). Ingeniería de Control Moderna. Pearson.
-
+*Ogata, K. (2010). Ingeniería de Control Moderna. Pearson.*
+*Sensoricx. (s.f.). Ejercicios amplificadores operacionales. Sensoricx.* *https://sensoricx.com/electronica-de-control/ejercicios-amplificadores-operacionales/*
 
