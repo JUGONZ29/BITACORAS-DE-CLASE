@@ -24,9 +24,18 @@ Estos sistemas son comunes en circuitos eléctricos (RC), sistemas térmicos y s
 > 
 > 🔑 *Respuesta en estado estable:* Comportamiento final del sistema cuando el tiempo tiende a infinito.
 
-## 3. Ejemplos de Sistemas de Primer Orden
+## 3. Forma canonica
 
-### 3.1. Circuito RC
+$$\frac{Y(s)}{U(s)}=\frac{\frac{c}{b}}{\frac{a}{b}s+1}$$
+
+$\tau=\frac{a}{b}$ - constante de tiempo
+
+$k=\frac{c}{b}$ - Ganancia Estatica
+
+$$\frac{Y(s)}{U(s)}=\frac{k}{\tau s+1}$$
+## 4. Ejemplos de Sistemas de Primer Orden
+
+### 4.1. Circuito RC
 Un circuito de resistencia y capacitancia (RC) tiene la ecuación diferencial:
 ```math
 RC \frac{dV}{dt} + V = V_{fuente}
@@ -37,7 +46,7 @@ donde:
 - *V* es el voltaje del condensador,
 - *V_{fuente}* es la entrada.
 
-### 3.2. Sistema Mecánico con Fricción
+### 4.2. Sistema Mecánico con Fricción
 Un bloque deslizante con fricción viscosa tiene la ecuación:
 ```math
 m \frac{dv}{dt} + b v = F
@@ -48,7 +57,7 @@ donde:
 - *v* es la velocidad,
 - *F* es la fuerza aplicada.
 
-## 4. Ejemplos
+## 5. Ejemplos
 💡 **Ejemplo 1:**
 Si un circuito RC tiene *R = 1 k\Omega* y *C = 1 \muF*, la constante de tiempo es:
 ```math
@@ -61,7 +70,7 @@ Para un sistema mecánico con *m = 5 kg* y *b = 10 Ns/m*, la constante de tiempo
 \tau = \frac{m}{b} = \frac{5}{10} = 0.5 s
 ```
 
-## 5. Tablas
+## 6. Tablas
 
 💡 **Ejemplo 3:**
 
@@ -72,7 +81,7 @@ Para un sistema mecánico con *m = 5 kg* y *b = 10 Ns/m*, la constante de tiempo
 
 Tabla 1. Resumen de ecuaciones de sistemas de primer orden.
 
-## 6. Ejercicios
+## 7. Ejercicios
 
 ## Definición del Problema
 
@@ -167,10 +176,10 @@ x(t) = \frac{500}{B} \left( 1 - e^{-t / (M/B)} \right)
 $$
 
 
-## 7. Conclusiones
+## 8. Conclusiones
 Los sistemas de primer orden tienen una dinámica caracterizada por una respuesta exponencial. La constante de tiempo determina la velocidad de respuesta del sistema, siendo un concepto clave en el diseño y análisis de sistemas dinámicos.
 
-## 8. Referencias
+## 9. Referencias
 - Ogata, K. (2010). *Ingeniería de Control Moderna*. Pearson.
 - Dorf, R. C., & Bishop, R. H. (2017). *Sistemas de control moderno*. Pearson.
 
