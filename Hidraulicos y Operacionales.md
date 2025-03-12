@@ -51,7 +51,7 @@ $$ A_{v}=1+\frac{10k}{2k} = 6 $$
 
 Si la entrada es de 1V, la salida sera de 6V
 ## 3. Ejercicios
-
+### 3.1
 ![image](https://github.com/user-attachments/assets/5fc99212-3c0c-48ec-9014-73cb164b4063)
 
 
@@ -84,6 +84,10 @@ q_1 - q_2 = A_2 \cdot \frac{\partial h_2}{\partial t}
 $$
 
 A partir de estas ecuaciones, se pueden obtener dos expresiones: una que relaciona $H_1$ con $H_2$ y $Q_1$, y otra que proporciona una función de $Q_1$, la cual puede reemplazarse en la ecuación inferior.
+### 3.2
+![image](https://github.com/user-attachments/assets/74e55871-0c90-4476-a9bc-ace80dad400d)
+
+Determine la salida del circuito con resistencias de R= 1M $\Omega$, $R_{1} = 1000k\Omega$, $R_{2} = 50k\Omega$ y $R_{3} = 500k\Omega$
 
 ## . Conclusiones 
 - Los sistemas hidraulicos permiten la transmision eficiente de energia a traves de fluidos incompresibles. son ampliamente utilizados en sistemas de control y maquinaria industrial para general movimiento y fuerza controlada
