@@ -89,6 +89,10 @@ A partir de estas ecuaciones, se pueden obtener dos expresiones: una que relacio
 
 Determine la salida del circuito con resistencias de R= 1M $\Omega$, $R_{1} = 1000k\Omega$, $R_{2} = 50k\Omega$ y $R_{3} = 500k\Omega$
 
+
+$$V_{0}=(-\frac{1M\Omega}{50k\Omega}V_{2}-\frac{1M\Omega}{500k\Omega}\frac{1M\Omega}{100k\Omega}V_{1}) = -(20V_{2}-20V_{1})=-20(V_{2}-V_{1})$$
+
+Se ve que la salida es la diferencia de $V_{2}$ y $V_{1}$ multiplicada por un factor de ganancia de -20
 ## . Conclusiones 
 - Los sistemas hidraulicos permiten la transmision eficiente de energia a traves de fluidos incompresibles. son ampliamente utilizados en sistemas de control y maquinaria industrial para general movimiento y fuerza controlada
 - Los amplificadores operacionales son fundamentales en sistemas electronicos y de control. las diversas configuraciones permiten el preocesamiento de señales y la implementacion de operaciones matematicas.
