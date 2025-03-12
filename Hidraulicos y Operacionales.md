@@ -50,7 +50,10 @@ Si $R_{f} = 10k\Omega$ y $R_{1} = 2k\Omega $, la ganancia sera:
 $$ A_{v}=1+\frac{10k}{2k} = 6 $$ 
 
 Si la entrada es de 1V, la salida sera de 6V
-## 3. Conclusiones 
+## 3. Ejercicios
+
+
+## . Conclusiones 
 - Los sistemas hidraulicos permiten la transmision eficiente de energia a traves de fluidos incompresibles. son ampliamente utilizados en sistemas de control y maquinaria industrial para general movimiento y fuerza controlada
 - Los amplificadores operacionales son fundamentales en sistemas electronicos y de control. las diversas configuraciones permiten el preocesamiento de señales y la implementacion de operaciones matematicas.
 - Los amplificadores inversor y no inversor son esenciales para amplificar señales sin causar distorsión significativa en diversas aplicaciones. Por su parte, el integrador juega un papel clave en el procesamiento de señales y sistemas de control, permitiendo realizar operaciones matemáticas fundamentales en circuitos electrónicos avanzados.
