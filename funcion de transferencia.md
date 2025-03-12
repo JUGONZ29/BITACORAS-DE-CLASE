@@ -175,6 +175,8 @@ $$
 - Los ingenieros de control aplican estos conceptos para desarrollar y mejorar sistemas en diversas áreas, como circuitos eléctricos, mecanismos y procesos térmicos.
 - Los ceros no afectan directamente la estabilidad del sistema como los polos, pero influyen en la respuesta transitoria 
 
+## 7. Referencias
+Ogata, K. (2010). Ingeniería de Control Moderna. Pearson.
 
 
 
