@@ -1,4 +1,4 @@
-# Sistemas Eléctricos
+# Sistemas Hidraulicos
 Los sistemas hidráulicos se utilizan en diversas aplicaciones industriales y mecánicas debido a su capacidad para transmitir grandes fuerzas con precisión. Funcionan mediante el uso de fluidos incompresibles para generar y controlar energía mecánica. Se emplean en maquinaria pesada, sistemas de frenos, actuadores y en la industria aeroespacial.
 ## 1. Definiciones
 > 🔑 *Presion:* Es la fuerza ejercida por unidad de area en un fluido
