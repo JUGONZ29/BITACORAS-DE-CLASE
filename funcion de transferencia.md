@@ -78,8 +78,98 @@ $$ s_{1} =-1, s_{2} = -6 $$
 - Polos complejos conjugados
 
 $$ s=-1\pm 2j $$
-  
-## 5. Conclusiones 
+
+ ## 5. ejercicios
+
+![image](https://github.com/user-attachments/assets/103d2c0f-3829-41fb-afbc-e6dfe56a66f2)
+
+
+# Solución Paso a Paso
+
+## Definición del Problema
+
+Se tienen dos tanques o columnas abiertas, de las cuales solo una es alimentada por un caudal $Q_e$. La segunda columna recibe líquido a través de una conexión con la primera y lo libera mediante otra tubería. Ambas conexiones presentan una resistencia al flujo del caudal, denominadas $R_1$ y $R_2$. El objetivo es determinar cómo varía la altura del segundo tanque en función del caudal que ingresa en el primero.
+
+## Análisis del Flujo
+
+Analicemos $q_1$: Como ambos tanques están abiertos a la atmósfera, la presión en su superficie es la presión ambiente. Aplicando la ecuación de Bernoulli en ambos lados y considerando las simplificaciones del problema (como que la velocidad del fluido a ambos lados del canal es la misma), la expresión para el caudal depende únicamente de la diferencia de alturas:
+
+$$
+q_1= \frac{h_1 - h_2}{R_1}
+$$
+
+Para el caudal $q_2$, la situación es similar, con la diferencia de que no hay un tercer tanque que imponga una resistencia adicional al flujo del líquido. Por lo tanto:
+
+$$
+q_2= \frac{h_2}{R_2}
+$$
+
+## Aplicación de la Transformada de Laplace
+
+Por otro lado, se sabe que el volumen acumulado en cada tanque depende del balance de caudales. Aplicando esta relación y realizando la transformación de Laplace, se obtienen las siguientes ecuaciones:
+
+$$
+q_e - q_1 = A_1 \cdot \frac{\partial h_1}{\partial t} \quad \Rightarrow \quad \text{Reemplazo y transformación} \quad \Rightarrow \quad Q_1(s) = \frac{H_1(s) - H_2(s)}{R_1} = Q_e(s) - A_1 \cdot s \cdot H_1(s)
+$$
+
+$$
+q_1 - q_2 = A_2 \cdot \frac{\partial h_2}{\partial t} \quad \Rightarrow \quad \text{Reemplazo y transformación} \quad \Rightarrow \quad Q_2(s) = \frac{H_2(s)}{R_2} = Q_1(s) - A_2 \cdot s \cdot H_2(s)
+$$
+
+## Ejercicios de Función de Transferencia
+
+### Ejercicio 1: Sistema de Dos Tanques en Serie
+
+Se tienen dos tanques interconectados, donde el primero recibe un caudal de entrada $Q_e(s)$. La resistencia al flujo entre los tanques es $R_1$, y la resistencia de salida del segundo tanque es $R_2$. Obtenga la función de transferencia $H_2(s)/Q_e(s)$.
+
+**Solución:**
+A partir del balance de caudales y aplicando la transformada de Laplace:
+
+$$
+Q_1(s) = \frac{H_1(s) - H_2(s)}{R_1} = Q_e(s) - A_1 s H_1(s)
+$$
+
+$$
+Q_2(s) = \frac{H_2(s)}{R_2} = Q_1(s) - A_2 s H_2(s)
+$$
+
+Despejando $H_2(s)$ en función de $Q_e(s)$:
+
+$$
+\frac{H_2(s)}{Q_e(s)} = \frac{1}{(A_1 R_1 s + 1)(A_2 R_2 s + 1)}
+$$
+
+### Ejercicio 2: Tanque con Salida Restringida
+
+Un tanque recibe un caudal de entrada $Q_e(s)$ y descarga a través de una resistencia $R$. Determine la función de transferencia $H(s)/Q_e(s)$.
+
+**Solución:**
+El balance de caudales es:
+
+$$
+Q_e(s) - Q_s(s) = A s H(s)
+$$
+
+Dado que la salida del tanque sigue la ecuación:
+
+$$
+Q_s(s) = \frac{H(s)}{R}
+$$
+
+Sustituyendo en la ecuación de balance:
+
+$$
+Q_e(s) - \frac{H(s)}{R} = A s H(s)
+$$
+
+Despejando $H(s)/Q_e(s)$:
+
+$$
+\frac{H(s)}{Q_e(s)} = \frac{1}{A s + 1/R}
+$$
+
+ 
+## 6. Conclusiones 
 - La Transformada de Laplace convierte ecuaciones diferenciales complejas en expresiones algebraicas más sencillas, lo que permite analizar sistemas dinámicos con mayor facilidad.
 - Con la Función de Transferencia podemos crear un modelo matemático que describe cómo responde un sistema ante diferentes señales de entrada.
 - Los ingenieros de control aplican estos conceptos para desarrollar y mejorar sistemas en diversas áreas, como circuitos eléctricos, mecanismos y procesos térmicos.
