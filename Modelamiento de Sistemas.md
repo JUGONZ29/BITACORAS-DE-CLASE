@@ -1,17 +1,17 @@
 # Modelamiento de Sistemas Dinámicos
-Un modelo matemático de un sistema dinámico es básicamente un conjunto de ecuaciones que describen con bastante precisión, o al menos con una buena aproximación, cómo se comporta dinámicamente el sistema. Hay que tener en cuenta que un mismo sistema puede representarse de varias maneras diferentes, lo que quiere decir que no existe un único modelo matemático, sino que hay múltiples enfoques posibles dependiendo de cómo se mire.
-La dinámica de un montón de sistemas se expresa mediante ecuaciones diferenciales. Estas ecuaciones vienen de las leyes físicas que gobiernan cada sistema, como las leyes de Newton en sistemas mecánicos y las leyes de Kirchhoff en sistemas eléctricos. Conseguir un modelo matemático adecuado es una de las partes más importantes cuando se analiza cualquier sistema.
+Un modelo matemático de un sistema dinámico es, en pocas palabras, un grupo de ecuaciones que explican bastante bien, o al menos intentan hacerlo, cómo se comporta el sistema a lo largo del tiempo. Es importante recordar que un mismo sistema puede verse desde varios ángulos, lo que significa que no hay un único modelo matemático, sino diferentes maneras de representarlo, dependiendo de la perspectiva. La mayoría de los sistemas dinámicos se describen a través de ecuaciones diferenciales. Estas ecuaciones se basan en las leyes físicas que rigen cada sistema, como las leyes de Newton para los sistemas mecánicos o las leyes de Kirchhoff para los eléctricos. Lograr un modelo matemático adecuado es fundamental cuando queremos analizar cualquier sistema.
 
-
-# 1. Sistemas Mecánicos
-Un sistema mecánico es un conjunto de componentes diseñados para transmitir, transformar o controlar el movimiento y la energía mecánica. entre los cuales podemos encontrar los siguientes tipos de sistemas 
-
-# 2. Definiciones
+# 1. Definiciones
 > 🔑 *Sistema dinámico:* Un sistema cuyo estado cambia con el tiempo debido a la interacción de sus elementos internos o con el entorno.
 
 > 🔑 *Modelo matemático:* Representación de un sistema físico mediante ecuaciones matemáticas que describen su comportamiento.
 
 > 🔑 *Ecuación diferencial:* Ecuación que relaciona una función con sus derivadas y describe la dinámica de un sistema.
+> 
+# 2. Sistemas Mecánicos
+Un sistema mecánico es un conjunto de componentes diseñados para transmitir, transformar o controlar el movimiento y la energía mecánica. entre los cuales podemos encontrar los siguientes tipos de sistemas 
+
+
 ## 2.1 Sistema Masa-Resorte-Amortiguador
 Este sistema está compuesto por una masa unida a un resorte y un amortiguador. Se modela con la ecuación diferencial:
 ```math
