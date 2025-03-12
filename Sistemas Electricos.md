@@ -37,6 +37,7 @@ El voltaje total en este tipo de circuitos es igual en cada uno de sus component
 $$ V_{T}=V_{R}+V_{L}+V_{C} $$
 
 ### 4. Ejercicios
+#### 4.1 
 ![Imagen de WhatsApp 2025-03-11 a las 19 46 07_bdbb61bf](https://github.com/user-attachments/assets/c5abb617-98dc-4a69-bba6-d44876c115b7)
 
 - Primero que nada, definimos las representaciones de voltaje correspondientes a cada uno de los elementos que componen el circuito:
@@ -62,6 +63,15 @@ $$V_{s}(t)=i_{T}(t)R_{2}+\frac{1}{C}\int_{}^{}i_{T}(t)dt$$
 - Calculamos la ecuación que representa el voltaje de salida Vs(t)
 
 $$V_{s}(t)=V_{R2}(t)+V_{C}(t)$$
+
+#### 4.2 
+![image](https://github.com/user-attachments/assets/d9a008b0-32fe-4451-aacb-f344b9899341)
+
+$$R*i_{1}(t)+L\frac{d_{i}(t)}{dt}+R(i_{1}(t)-i_{2}(t))+\frac{1}{C}\int_{}^{}(i_{1}(t)-i_{2}(t))dt=V(s)$$
+
+$$2*i_{1}(t)+3\frac{d_{i}(t)}{dt}+4(i_{1}(t)-i_{2}(t))+\frac{1}{5}\int_{}^{}(i_{1}(t)-i_{2}(t))dt=V(s)$$
+
+
 ### 5. Conclusiones
 El modelamiento de sistemas eléctricos ayuda a predecir su comportamiento y respuesta ante diferentes entradas. Los circuitos RLC, que son de segundo orden, tienen similitudes con los sistemas mecánicos, lo que permite un análisis más completo. Usando las leyes de Kirchhoff y ecuaciones diferenciales, es posible diseñar y entender circuitos en control automático y electrónica. Este enfoque no solo mejora la comprensión teórica, sino que también facilita soluciones prácticas en ingeniería.
 ### 6. Referencias
